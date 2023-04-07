@@ -1,8 +1,10 @@
+/* reseteo de margenes*/
 body * {
   border:0px;
   margin:0px;
 }
 
+/*imagen de fondo del header*/
 
 .imagen-fondo {
   position: relative;
@@ -15,22 +17,23 @@ body * {
   object-fit: cover;
 }
 
+/* formato barra menu*/
 .navbar {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  background-color: rgba(212, 245, 238, 0.5); /* set alpha value to control transparency */
+  background-color: rgba(212, 245, 238, 0.5); 
   z-index: 999;
 }
 
 nav{
   font-size: large;
  
-  color: white
-  ;
+  color: white;
 }
 
+/* formato aplicado a iconos seccion "quienes somos"*/
 .icono {
   background-color: rgb(96, 192, 248); 
   width: auto; 
@@ -40,70 +43,53 @@ nav{
   align-items: center;
 }
 
+/*formato de texto a seccion hero*/
 
+#hero-section a{
+  font-family: 'Hind Madurai', sans-serif;
+  font-weight: 300;
+  font-size: medium;
 
+}
 
+/*formato tipografias a resto de textos, titulos y contenidos en general*/
 
-
-  h4 {
-    text-align:left; 
+h4 {
+    
+    font-family: 'Hind Madurai', sans-serif;
+    font-weight: 700;
+    font-size:2rem;
     }
 
-#Inicio h1{
+article{
+  font-family: 'Hind Madurai', sans-serif;
+  font-weight: 300;
+  font-size:large;
+  color: blanchedalmond;
 
-        color: rgb(252, 252, 252) !important;
-        text-align: Left;
-        padding-right: 300px;
-        font-size: 50px;
-        font-weight: bold;
-        font-size: 30px;
 }
-#Presentacion{
-        width: 100%;
-        height: 400px;
-        background-color: antiquewhite;
-        color: rgb(0, 0, 0);
-        text-align: Left;
-        padding-top: 50px;
-        padding-right: 150px;
-        font-size: 20px;
-        font-weight: lighter;
-  }    
-  
-  #Resumen{
-    width: 100%;
-    height: auto;
-    background-color:black;
-    color: white;
-    text-align: Left;
-    padding-top: 50px;
-    padding-right: 150px;
-    font-size: 16px;
-    font-weight: lighter;
 
-      
+h5 {
+  font-family: 'Hind Madurai', sans-serif;
+  font-weight: bold;
+  font-size: large;
   }
 
-  #Educacion{
-    width: 100%;
-    height: auto;
-    background-color:rgb(102, 94, 94);
-    color: white;
-    text-align: Left;
-    padding-top: 50px;
-    padding-right: 150px;
-    font-size: 16px;
+p {
+    font-family: 'Hind Madurai', sans-serif;
     font-weight: lighter;
+    font-size:medium;
+ }  
 
-      
-  }
-
+ /*formato barra de pie de pagina color, altura y alineacion*/
   footer{
 
-    height:80px;
+    height:100px;
     background-color:  rgb(96, 192, 248);
     text-align: center;
     color: whitesmoke;
-    padding-top: 20px;
+    padding-top: 30px;
+    margin-top: -50px;
   }
-            
+  
+  
