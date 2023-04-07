@@ -16,14 +16,13 @@ body * {
 }
 
 .navbar {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  background-color: transparent;
-  
+  background-color: rgba(212, 245, 238, 0.5); /* set alpha value to control transparency */
+  z-index: 999;
 }
-
 
 nav{
   font-size: large;

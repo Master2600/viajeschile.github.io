@@ -16,39 +16,42 @@
 
 <body>
 <!--Inicio Menú-->
-<section class="imagen-fondo">
-      <img src="assets/img/carousel1.jpg" width="100% " height="600px" alt="">
-  <nav class="navbar navbar-expand-lg "data-bs-theme="dark">
+<section id="hero-section" class="imagen-fondo">
+  <img src="assets/img/carousel1.jpg" width="100% " height="600px" alt="">
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
     <div class="container">
-        <img src="assets/img/LOGO.png" alt="" class="navbar-brand ms-auto ps-3" width="200x" height="50px">
-              <a class="navbar-brand ms-auto ps-3" ></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-              </button>
+      <img src="assets/img/LOGO.png" alt="" class="navbar-brand ms-auto ps-3" width="200x" height="50px">
+      <a class="navbar-brand ms-auto ps-3"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
       <div class="container">
-          <div class="collapse navbar-collapse ms-auto" id="navbarNav">
-              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 c16">
-              <li class="nav-item">
-                  <a class="nav-link " aria-current="page" href="#hero-section">Inicio</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#nosotros">Quienes Somos</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#newsletter">Nosotros</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#Contacto">Contacto</a>
-              </li>
-              </ul>
-          </div>
+        <div class="collapse navbar-collapse ms-auto" id="navbarNav">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 c16">
+            <li class="nav-item">
+              <a class="nav-link scroll" aria-current="page" href="#hero-section">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scroll" href="#nosotros">Quienes Somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scroll" href="#Destacados">Destacados</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scroll" href="#Contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </nav>
 </section>
+
+
 <!--fin barra menú-->
 
-<!--Inicio Quienes Somos-->  
+<!--Inicio Quienes Somos--> 
+<header>
 <section id="nosotros">
   <div class="container-fluid  bg-black d-none d-sm-block pb-5 px-5">
               <h1 CLASS="pt-5 text-center text-light pb-4">QUIENES SOMOS?</h1>
@@ -75,6 +78,7 @@
       </div>    
   </div>
 </section>
+</header> 
 
 <!--Fin Quienes Somos-->  
 
@@ -87,18 +91,18 @@
     <div  class="row ">
   
           <div class="col-12 col-md-6 col-lg-3 py-2 ">
-              <div class="card mt-3 mb-3 h-100 w-100 " style="width: 18rem;">
+              <div class="card mt-3 mb-3 h-100 w-100 bg-info text-light" style="width: 18rem;">
                       <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
                       <div class="card-body ">
                             <h5 class="card-title t20">Lorem ipsum dolor sit amet</h5>
-                            <p class="card-text t16 contenido">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra, blandit erat luctus faucibus orci.</p>
+                            <p class="card-text t16 contenido ">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra, blandit erat luctus faucibus orci.</p>
                       </div>
               </div>
               
           </div>  
   
           <div class="col-12 col-md-6 col-lg-3 py-2 ">
-            <div class="card mt-3 mb-3 h-100 w-100 " style="width: 18rem;">
+            <div class="card mt-3 mb-3 h-100 w-100 bg-info text-light" style="width: 18rem;">
                   <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
                   <div class="card-body ">
                     <h5 class="card-title t20 ">consectetur adipiscing elit</h5>
@@ -108,7 +112,7 @@
           </div>  
   
           <div class="col-12 col-md-6 col-lg-3 py-2">
-            <div class="card mt-3 mb-3 h-100 w-100 " style="width: 18rem;">
+            <div class="card mt-3 mb-3 h-100 w-100 bg-info text-light" style="width: 18rem;">
                   <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
                   <div class="card-body ">
                     <h5 class="card-title t20 ">Sed ac urna vitae nunc aliquet faucibus</h5>
@@ -118,11 +122,11 @@
           </div>  
 
           <div class="col-12 col-md-6 col-lg-3 py-2">
-            <div class="card mt-3 mb-3 h-100 w-100 " style="width: 18rem;">
+            <div class="card mt-3 mb-3 h-100 w-100 bg-info text-light" style="width: 18rem;">
                   <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
                   <div class="card-body ">
                     <h5 class="card-title t20 ">Ut blandit nibh tempus augue</h5>
-                    <p class="card-text t16 contenido">Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam laoreet ac eleifend risus, urna auctor inceptos mattis dapibus.</p>
+                    <p class="card-text t16 contenido ">Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam laoreet ac eleifend risus, urna auctor inceptos mattis dapibus.</p>
                   </div>
             </div>
           </div>  
@@ -136,8 +140,6 @@
   
     <!--Fin Destacados--> 
 
-
-    
 
 
 <!-- inicio Carrusel-->
@@ -189,7 +191,7 @@
       </div>
 
       <div class="my-3  text-start">
-          <button class="btn btn-info text-light">Enviar</button>
+          <button id="enviarCorreo" class="btn btn-info text-light">Enviar</button>
       </div>
 
   </form>
@@ -197,6 +199,10 @@
 <!--Fin Contacto-->
    
     <footer>Website by JebMaster 2023</footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+
+    <script src="assets/js/mijs.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
